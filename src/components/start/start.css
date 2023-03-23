@@ -1,0 +1,44 @@
+.head{
+    background-color: #1abc9c ;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        text-align: center;
+        color: white;
+    
+}
+.head .avatar {
+    width: 24%;
+}
+.heading{
+    font-size: 64px;
+}
+.heading2{
+    font-size: 24px;
+}
+.icon{
+    font-size: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+.icon::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    left: 58px;
+    top: 50%;
+}
+.icon::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: white;
+    position: absolute;
+    right: 58px;
+    top: 50%;
+}
+

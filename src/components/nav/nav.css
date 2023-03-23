@@ -1,0 +1,12 @@
+.navbar{
+    color:#2c3e50 !important;
+    z-index: 9999999;
+    
+}
+.nav-link:hover{
+    color: #1abc9c ; 
+}
+.navbar-brand{
+    color: red;
+    font-size: 48px;
+}
